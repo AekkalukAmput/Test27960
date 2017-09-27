@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'supermarket';
+  src: local('supermarket'), url(../react-web-fonts/fonts/supermarket.woff) format('woff');
+}
+.table, .td, .th {
+    border: 1px solid #ddd;
+    text-align: left;
+  	font-family:supermarket;
+  	font-size:18px
+}
+
+.table2 {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    width: 10%;
+}
+
+.th, .td {
+    padding: 15px;
+	text-align: center;
+}
+
+.CircularProgressbar {
+  /*
+   * This fixes an issue where the CircularProgressbar svg has
+   * 0 width inside a "display: flex" container, and thus not visible.
+   *
+   * If you're not using "display: flex", you can remove this style.
+   */
+  width: 50%;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #3e98c7;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #d6d6d6;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #3e98c7;
+  font-size: 20px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}

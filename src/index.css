@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a{color: #696969;}
+.active{color:#D11100;}
+ul{list-style: none;padding: 0;margin: 0;}
+ul li{display: inline-block;padding: 10px 15px;}
+ul li:first-child{padding-left: 0;}
+.leftNavi {float: left;width: 25%;background: #e2e2e2;box-sizing: border-box;padding: 20px 30px;min-width: 250px;}
+.rightContent {float: left;width: 75%;padding-left: 30px;box-sizing: border-box;min-width: 450px;}		
+.leftNavi ul li{display: block; padding-left: 0;}

@@ -1,0 +1,4 @@
+@font-face {
+  font-family: 'supermarket';
+  src: local('supermarket'), url(./supermarket.woff) format('woff');
+}
